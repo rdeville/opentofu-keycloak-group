@@ -8,6 +8,8 @@ resource "keycloak_group" "this" {
 }
 
 resource "keycloak_group_memberships" "this" {
+  count = length(var.members) != 0 ? 1 : 0
+
   realm_id = var.realm_id
   group_id = keycloak_group.this.id
 
