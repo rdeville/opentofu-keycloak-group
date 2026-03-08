@@ -2,6 +2,17 @@
 
 <!-- version list -->
 
+## v0.1.1 (2026-03-08)
+
+### ⚡️
+
+- ⚡️ Update keycloak group membership, skipped if no members
+  ([`903b423`](https://framagit.org/rdeville-public/opentofu/keycloak-group/-/commit/903b423d53f0479985eda587a40cd353ecf306d7))
+
+- ⚡️ Update keycloak group membership, skipped if no members (!2)
+  ([`1cede6f`](https://framagit.org/rdeville-public/opentofu/keycloak-group/-/commit/1cede6f74ef8d9c8ce183d6f847f673bf295dd34))
+
+
 ## v0.1.0 (2026-02-17)
 
 ### ✨
